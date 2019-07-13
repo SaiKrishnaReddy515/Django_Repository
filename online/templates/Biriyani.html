@@ -1,0 +1,60 @@
+{% extends 'base1.html' %}
+
+{%block content%}
+{% load staticfiles %}
+<center>
+    <h2>Biriyani Items</h2>
+    <table>
+        <tr>
+            <td><div class="VEG"  >
+                    <br>
+                  
+                    <img src="{% static 'db.jpg' %}" height="200" width="400">
+                    <h3>Special Dum Biriyani</h3>
+                    <h4>PRICE:220 RS</h4>
+                    <form action="Login_view">
+                        <input type="submit" value="Order Now">
+                    </form>
+               
+                </div></td>
+                <td>
+                        <div class="VEG2"  >
+                                <br>
+                              
+                                <img src="{% static 'fb.jpg' %}" height="200" width="400">
+                                <h3>Special Fry Biriyani</h3>
+                                <h4>PRICE:250 RS</h4>
+                                <form action="Login_view">
+                                    <input type="submit" value="Order Now">
+                                </form>
+                           
+                            </div>
+
+                </td>
+                
+        </tr>
+        <tr>
+                <td>
+                        <div class="VEG2"  >
+                                <br>
+                              
+                                <img src="{% static 'fp.jpg' %}" height="200" width="400">
+                                <h3>Family Pack</h3>
+                                <h4>PRICE:300 RS</h4>
+                                <form action="Login_view">
+                                    <input type="submit" value="Order Now">
+                                </form>
+                           
+                            </div>
+                </td>
+              
+        </tr>
+
+    </table>
+
+    
+
+        </center>
+
+
+{%endblock%}

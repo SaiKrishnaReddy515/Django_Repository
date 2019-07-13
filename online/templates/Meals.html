@@ -1,0 +1,63 @@
+{% extends 'base1.html' %}
+
+{%block content%}
+{% load staticfiles %}
+<center>
+    <h2> VEJ MEALS</h2>
+    <table>
+<tr>
+<td>
+        <div class="VEG"  >
+                <br>
+              
+                <img src="{% static 'm1.jpg' %}" height="200" width="400">
+                <h3>Special Meals</h3>
+                <h4>PRICE:200 RS</h4>
+                <form action="Login_view">
+                    <input type="submit" value="Order Now">
+                </form>
+           
+            </div>
+</td>
+<td>
+        <div class="VEG2"  >
+                <br>
+              
+                <img src="{% static 'm2.jpg' %}" height="200" width="400">
+                <h3>Full Meals</h3>
+                <h4>PRICE:150 RS</h4>
+                <form action="Login_view">
+                    <input type="submit" value="Order Now">
+                </form>
+           
+            </div>
+</td>
+
+
+</tr>
+<tr>
+
+        <td>
+                <div class="VEG2"  >
+                        <br>
+                      
+                        <img src="{% static 'm1.jpg' %}" height="200" width="400">
+                        <h3>Mini Meals</h3>
+                        <h4>PRICE:100 RS</h4>
+                        <form action="Login_view">
+                            <input type="submit" value="Order Now">
+                        </form>
+                   
+                    </div>
+        </td>
+
+</tr>
+
+    </table>
+
+    
+       
+        </center>
+
+
+{%endblock%}

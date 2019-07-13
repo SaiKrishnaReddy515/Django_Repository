@@ -1,0 +1,106 @@
+{% extends 'base1.html' %}
+
+{%block content%}
+{% load staticfiles%}
+
+<div class="HEADING" >
+
+    <center><h1 >HOTEL SIRI GRAND</h1>
+        <img src="{% static 'r1.jpg' %}" height="500" width="1300">
+    </center>
+</div>
+<div class="ABOUT">
+    <center>
+        <h2>ABOUT</h2>
+        <p>A chain of modern hotels at the choicest destinations, The Gateway cater to those who are urbane and live the promise of 24x7 in every thread of life, through most points in time. New-age experiences here can range from active food, in-room yoga to smart technology aids. The hotels offer carefully designed spaces to communicate and collaborate. Not to forget the taste of regional spirit alongside global experiences. 
+            
+        </p>
+        <p>High-Quality Food
+
+            A good restaurant sets a high standard for its food quality and ensures that guests receive the same quality with every meal. Serving quality food can earn your restaurant a good reputation and compel your guests to return for repeat visits. High-quality ingredients and an experienced cook are important to serving good food consistently. A good cook understands your guests' needs and works well with the kitchen staff to ensure that guests receive their meal the way they ordered it every time.</p>
+            <p>
+                Good Overall Experience
+
+Providing good customer service in a clean environment helps to enhance your guests’ overall experience of your restaurant. The staff who interact with your guests should be courteous and maintain a positive attitude. Servers should know the menu well, deliver guests’ food and drinks on time, and quickly address any issues that an unsatisfied guest may have. All staff should help to keep the restaurant clean at all times, including the kitchen, food preparation areas and any areas that guests come into contact with.
+
+            </p>
+            <p>
+                Good Business Management
+
+A good restaurant owner manages the business aspect of the restaurant properly, which increases the chances that it can provide quality food and service without interruption. Running your restaurant properly can also help boost your small business’s profits. You must manage your restaurant’s finances, keep good records and stay current with regulatory requirements, such as taxes and health inspections. For example, consistently paying your vendors on time reduces the risk of running out of items on your menu
+            </p>
+   
+        </center>
+</div>
+<center>
+        <table>
+	
+                <tr>
+                    <td>
+                        <div class="VEG"  >
+                <h2>NON VEG  ITEMS</h2>
+                <a href="Biriyani"><img src="{% static 'nv1.jpg' %}" height="200" width="400"></a>
+                
+               
+            </div>
+                    </td>
+                    <td>
+                        <div class="NONVEG"  >
+                    <h2> VEG ITEMS</h2>
+                    <a href="Meals"><img src="{% static 'vej2.jpg' %}" height="200" width="400"></a>
+                    
+                   
+                </div>
+            </td>
+            <td>
+                <div class="TIFIN"  >
+                        <h2>TIFINS</h2>
+                        <a href="Tifins"><img src="{% static 't1.jpg' %}" height="200" width="400"></a>
+                        
+                        
+                    </div>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <div class="VEG"  >
+                            <h2>FAST FOODS</h2>
+                            <a href="FastFoods"> <img src="{% static 'f1.jpg' %}" height="200" width="400"></a>
+                           
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <div class="ICE"  >
+                                <h2>ICE CREAMS</h2>
+                                <a href="IceCreams"><img src="{% static 'i1.jpg' %}" height="200" width="400"></a>
+                                
+                                
+                            </div>
+                    </td>
+                    <td>
+                            <div class="ICE"  >
+                                    <h2>DRINKS</h2>
+                                    <a href="IceCreams"><img src="{% static 'dr1.jpg' %}" height="200" width="400"></a>
+                                    
+                                    
+                                </div>
+                        </td>
+            
+            
+                </tr>
+            </table>
+                <div class="address">
+                    <h1>ADDRESS</h1>
+                    <p> 
+Bhuvana Towers(CMR BUILDING),
+                            Sarojini Devi Road, Near Swapnaloak Complex,
+                            VIJAYAWADA -500 003. AP. (India)
+                            Tel: +91-040-40079667</p>                            
+
+
+                </div>
+            </center>
+
+{%endblock%}

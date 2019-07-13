@@ -1,0 +1,15 @@
+{%extends 'SignUpbase.html'%}
+{%block content%}
+
+<form    action="SignUp_view" method="POST">
+{%csrf_token%}
+{{form2}}
+
+<input type="submit" value=" Click Here to SignUP">
+<h4>Already a Member</h4>
+<a href="Login_view">Click Here  to Login</a>
+</form>
+
+
+
+{%endblock%}

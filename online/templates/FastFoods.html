@@ -1,0 +1,62 @@
+{% extends 'base1.html' %}
+
+{%block content%}
+{% load staticfiles %}
+<center>
+    <h2>Fast Foods</h2>
+    <table>
+        <tr>
+<td>
+        <div class="VEG"  >
+                <br>
+              
+                <img src="{% static 'mnachuria.jpg'%}" height="200" width="400">
+                <h3>Special Manchuria</h3>
+                <h4>PRICE:100 RS</h4>
+                <form action="Login_view">
+                    <input type="submit" value="Order Now">
+                </form>
+           
+            </div>
+</td>
+<td>
+        <div class="VEG2"  >
+                <br>
+              
+                <img src="{% static 'noodels.jpg' %}" height="200" width="400">
+                <h3> Veg Noodels</h3>
+                <h4>PRICE:80 RS</h4>
+                <form action="Login_view">
+                    <input type="submit" value="Order Now">
+                </form>
+           
+            </div>
+</td>
+
+
+        </tr>
+        <tr>
+
+                <td>
+                        <div class="VEG2"  >
+                                <br>
+                              
+                                <img src="{% static 'fry.jpg' %}" height="200" width="400">
+                                <h3>Egg Rice</h3>
+                                <h4>PRICE:50 RS</h4>
+                                <form action="Login_view">
+                                    <input type="submit" value="Order Now">
+                                </form>
+                           
+                            </div>
+                </td>
+
+        </tr>
+    </table>
+
+    
+        
+        </center>
+
+
+{%endblock%}

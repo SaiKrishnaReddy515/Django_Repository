@@ -1,0 +1,11 @@
+{% extends 'Loginbase.html' %}
+{%block content%}
+<form action="Login_view" method="POST">
+    {%csrf_token%}
+    {{form2}}
+
+    <input type="submit" value="Login">
+    <h4>Not a Member </h4><a href="SignUp_view">Click Here to Sign In</a>
+</form>
+ 
+{%endblock%}
